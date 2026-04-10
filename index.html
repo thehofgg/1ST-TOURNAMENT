@@ -64,36 +64,50 @@ body {
 .match {
     display: grid;
     grid-template-columns: 90px 1fr auto 1fr;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     background: #0f172a;
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(255,255,255,0.05);
 }
 
 /* Time */
 .time-box {
-    border: 1px solid #555;
-    padding: 6px 8px;
-    border-radius: 6px;
+    border: 1px solid #444;
+    padding: 6px 10px;
+    border-radius: 8px;
     text-align: center;
-    background: black;
-    color: #0ff;
+    background: #000;
+    color: #00ffff;
     font-weight: bold;
+    box-shadow: 0 0 8px rgba(0,255,255,0.3);
 }
 
-/* Team */
-.team.left { text-align: right; color: #4cc9f0; }
-.team.right { text-align: left; color: #ff4d6d; }
+/* 🔴 ซ้าย / 🔵 ขวา (สลับแล้ว) */
+.team.left {
+    text-align: right;
+    color: #ff3b3b;
+    font-weight: bold;
+    padding-right: 12px;
+}
+
+.team.right {
+    text-align: left;
+    color: #00cfff;
+    font-weight: bold;
+    padding-left: 12px;
+}
 
 /* VS */
 .vs {
-    padding: 5px 12px;
+    padding: 6px 14px;
     background: black;
-    border-radius: 6px;
+    border-radius: 8px;
     color: yellow;
     font-weight: bold;
+    box-shadow: 0 0 10px rgba(255,255,0,0.5);
 }
 </style>
 </head>
@@ -114,50 +128,50 @@ body {
 
 <!-- 20 -->
 <div id="d20" class="grid active">
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">YUPNAPJUKER</div><div class="vs">VS</div><div class="team right">LaOs Esport</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">GROWLR</div><div class="vs">VS</div><div class="team right">นุ่มฟรู้ว</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">KingSun</div><div class="vs">VS</div><div class="team right">มะมะมะหมูเด้ง</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">TK9ark</div><div class="vs">VS</div><div class="team right">Longkong</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Made in Thailand</div><div class="vs">VS</div><div class="team right">วิ่งเพื่อสุขภาพ</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">ICY</div><div class="vs">VS</div><div class="team right">ตรวจภายใน</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">ระดับโก๋</div><div class="vs">VS</div><div class="team right">Euphelia</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Blessing</div><div class="vs">VS</div><div class="team right">ตกปลากี่โมง</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">YUPNAPJUKER</div><div class="vs">VS</div><div class="team right">LaOs Esport</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">GROWLR</div><div class="vs">VS</div><div class="team right">นุ่มฟรู้ว</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">KingSun</div><div class="vs">VS</div><div class="team right">มะมะมะหมูเด้ง</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">TK9ark</div><div class="vs">VS</div><div class="team right">Longkong</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Made in Thailand</div><div class="vs">VS</div><div class="team right">วิ่งเพื่อสุขภาพ</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">ICY</div><div class="vs">VS</div><div class="team right">ตรวจภายใน</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">ระดับโก๋</div><div class="vs">VS</div><div class="team right">Euphelia</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Blessing</div><div class="vs">VS</div><div class="team right">ตกปลากี่โมง</div></div>
 </div>
 
 <!-- 22 -->
 <div id="d22" class="grid">
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Charms</div><div class="vs">VS</div><div class="team right">ลูกแม่ฤดี</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">darkshadow</div><div class="vs">VS</div><div class="team right">แมวเหมียวจัง</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">หิวของ</div><div class="vs">VS</div><div class="team right">หมาทอย</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Valentine</div><div class="vs">VS</div><div class="team right">Do you know da wei</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">I♥3RDHENRY</div><div class="vs">VS</div><div class="team right">MaiLenNitan</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Lด็กXนวด</div><div class="vs">VS</div><div class="team right">Lunatic</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">MAAOWMONG</div><div class="vs">VS</div><div class="team right">One Night Stand</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">ทุงทุง</div><div class="vs">VS</div><div class="team right">Anything</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Charms</div><div class="vs">VS</div><div class="team right">ลูกแม่ฤดี</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">darkshadow</div><div class="vs">VS</div><div class="team right">แมวเหมียวจัง</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">หิวของ</div><div class="vs">VS</div><div class="team right">หมาทอย</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Valentine</div><div class="vs">VS</div><div class="team right">Do you know da wei</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">I♥3RDHENRY</div><div class="vs">VS</div><div class="team right">MaiLenNitan</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Lด็กXนวด</div><div class="vs">VS</div><div class="team right">Lunatic</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">MAAOWMONG</div><div class="vs">VS</div><div class="team right">One Night Stand</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">ทุงทุง</div><div class="vs">VS</div><div class="team right">Anything</div></div>
 </div>
 
 <!-- 24 -->
 <div id="d24" class="grid">
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Custard</div><div class="vs">VS</div><div class="team right">GODHAND</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">DJT</div><div class="vs">VS</div><div class="team right">V-REVIVED</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Eagle</div><div class="vs">VS</div><div class="team right">๑SoSick๑</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">SengK</div><div class="vs">VS</div><div class="team right">SNOWYBEAR</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Grimshade</div><div class="vs">VS</div><div class="team right">Lumine</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Choir</div><div class="vs">VS</div><div class="team right">GrOwLRs No2</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Shining Road</div><div class="vs">VS</div><div class="team right">นักวิ่งตีนอนิเมะ</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Prominence</div><div class="vs">VS</div><div class="team right">ชมพูทวีป</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Custard</div><div class="vs">VS</div><div class="team right">GODHAND</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">DJT</div><div class="vs">VS</div><div class="team right">V-REVIVED</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Eagle</div><div class="vs">VS</div><div class="team right">๑SoSick๑</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">SengK</div><div class="vs">VS</div><div class="team right">SNOWYBEAR</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Grimshade</div><div class="vs">VS</div><div class="team right">Lumine</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Choir</div><div class="vs">VS</div><div class="team right">GrOwLRs No2</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Shining Road</div><div class="vs">VS</div><div class="team right">นักวิ่งตีนอนิเมะ</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Prominence</div><div class="vs">VS</div><div class="team right">ชมพูทวีป</div></div>
 </div>
 
 <!-- 27 -->
 <div id="d27" class="grid">
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">รอมีFeel</div><div class="vs">VS</div><div class="team right">2557</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">เบรคเอี๊ยด</div><div class="vs">VS</div><div class="team right">Formuลาวัน</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">ชนชั้นสูง</div><div class="vs">VS</div><div class="team right">WingmaikrubX</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Sync</div><div class="vs">VS</div><div class="team right">เต่าหลับ</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Hypervenom</div><div class="vs">VS</div><div class="team right">QWER</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">67</div><div class="vs">VS</div><div class="team right">มาเพื่อจับมือพี่อู๋</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Matilda Esport</div><div class="vs">VS</div><div class="team right">ViLL4IN</div></div>
-<div class="match"><div class="time-box">xx:xx</div><div class="team left">Disastrous</div><div class="vs">VS</div><div class="team right">แซ่บแซ่บ</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">รอมีFeel</div><div class="vs">VS</div><div class="team right">2557</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">เบรคเอี๊ยด</div><div class="vs">VS</div><div class="team right">Formuลาวัน</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">ชนชั้นสูง</div><div class="vs">VS</div><div class="team right">WingmaikrubX</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Sync</div><div class="vs">VS</div><div class="team right">เต่าหลับ</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Hypervenom</div><div class="vs">VS</div><div class="team right">QWER</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">67</div><div class="vs">VS</div><div class="team right">มาเพื่อจับมือพี่อู๋</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Matilda Esport</div><div class="vs">VS</div><div class="team right">ViLL4IN</div></div>
+<div class="match"><div class="time-box">xx : xx</div><div class="team left">Disastrous</div><div class="vs">VS</div><div class="team right">แซ่บแซ่บ</div></div>
 </div>
 
 </div>
